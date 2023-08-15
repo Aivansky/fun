@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b05187f-3708-4440-8086-e22ef1054061" name="Changes" comment="8/14/23 re learning java class calls">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6b05187f-3708-4440-8086-e22ef1054061" name="Changes" comment="adding pom file">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secndclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/secndclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="2TzTAHYMmEa87oqJW0IZ1btSmV4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +48,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/orenl/Desktop/intellji/test2",
     "onboarding.tips.debug.path": "C:/Users/orenl/Desktop/intellji/test2/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -49,7 +57,14 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orenl\Desktop\intellji\test2\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\orenl\Desktop\intellji\test2\src\main" />
+      <recent name="C:\Users\orenl\Desktop\intellji\test2\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Smart Tomcat.tomcatTest2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="test2" />
@@ -57,8 +72,113 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat: test2 (1)" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.8" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../Program Files/Apache Software Foundation/Tomcat 10.0" />
+          <option name="version" value="10.0.8.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat: test2" type="com.poratu.idea.plugins.tomcat" temporary="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/test2" />
+      <option name="docBase" value="$PROJECT_DIR$/webapp" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.8" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../Program Files/Apache Software Foundation/Tomcat 10.0" />
+          <option name="version" value="10.0.8.0" />
+        </TomcatInfo>
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" nameIsGenerated="true">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcatTest2" type="com.poratu.idea.plugins.tomcat">
+      <predefined_log_file enabled="true" id="Tomcat Localhost Log" />
+      <predefined_log_file enabled="true" id="Tomcat Access Log" />
+      <predefined_log_file id="Tomcat Catalina Log" />
+      <predefined_log_file id="Tomcat Manager Log" />
+      <predefined_log_file id="Tomcat Host Manager Log" />
+      <option name="contextPath" value="/" />
+      <option name="docBase" value="C:\Users\orenl\Desktop\intellji\test2" />
+      <option name="envOptions">
+        <map />
+      </option>
+      <option name="extraClassPath" value="" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.8" />
+          <option name="path" value="$PROJECT_DIR$/../../../../../Program Files/Apache Software Foundation/Tomcat 10.0" />
+          <option name="version" value="10.0.8.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <module name="test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+      <item itemvalue="Smart Tomcat.tomcatTest2" />
+      <item itemvalue="Smart Tomcat.Tomcat: test2" />
+      <item itemvalue="Smart Tomcat.Tomcat: test2 (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Smart Tomcat.Tomcat: test2 (1)" />
+        <item itemvalue="Smart Tomcat.Tomcat: test2" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -80,12 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692056079231</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="adding pom file">
+      <option name="closed" value="true" />
+      <created>1692062888818</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692062888818</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="8/14/23 re learning java class calls" />
-    <option name="LAST_COMMIT_MESSAGE" value="8/14/23 re learning java class calls" />
+    <MESSAGE value="adding pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding pom file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
